@@ -1,0 +1,28 @@
+-Para insertar texto en VIM se debe apretar sobre la tecla i de insert.
+-Para salir del modo de inserción se ha de apretar ESC. 
+-Para guardar un fichero con un nombre deseado se tiene que poner :w! [nombre fichero]
+-Para copiar una línea se debe salir del modo de inserción y luego ir a la línea deseada para 
+luego apretar dos veces sobre la tecla Y y para copiar se apreta la tecla P dos veces.
+-Para borrar líneas hay que apretar dos veces sobre la tecla D.
+-Para ir a una línea en concreto del fichero solo hay que salir del modo inserciñon y hay que
+poner :[numero línea].
+-Para ir al principio del fichero se puede usar lo que hemos aprendido previamente o apretar
+GG para ir al principio del fichero.
+-Para ir al final del fichero hay que apretar MAYÚS + G.
+-Las marcas que se usan para copiar y pegar son YY para copiar y PP para pegar.
+-Las marcas para cortar y pegar son DD para cortar y PP para pegar.
+-Para moverse por dentro del fichero se usa j para moverse hacia abajo, k para moverse
+hacia arriba, H para moverse a la izquierda y l para moverse a la derercha.
+-Para guardar los cambios hay que poner :w!
+-Para buscar en VIM se ha de poner /[seguido por la palabra que quieras buscar] y para pasar a la siguente palabra hay que apretar N y para ir al anterior hay que apretar MAYUS + N-Para deshacer cambios en VIM se puede escribir el comando :u de :undo.
+-Para rehacer los cambios deshechos se puede escribir el comando :redo or apretar ctrl + R.
+-Para abrir una ventana en horizontal hay que salir del modo de insercion, y hay que
+apretar ctrl + w + s para un horizontal split y ctrl + w + v para un vertical split.
+-$ – Ir al final de la línea y 0 – Ir al principio de la línea.
+- Se avanza de palabra en palabra apretando la tecla W en el modo normal y e para avanzar al final de la palabra.
+-Para desgresar atras hacia las palabras hay que apretar la tecla B.
+-Para usar los registros en modo insercion hay que apretar ctrl + r seguido del registro que se desea usar.
+-Para ejecutar comandos directamente en VIM hay que entrar en el modo de comando saliendo del modo de insercion apretando ESC, posteriormente se pone :! [con el comando que sea desea].
+-Para salir de VIM guardando los cambios se tiene que salir del modo de insercion y poner :wq.
+-Para salir de VIM sin guardar los cambios hay que salir del modo de insercion y apretar y poner los siguente :q
+
